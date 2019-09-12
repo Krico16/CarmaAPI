@@ -4,7 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');require('firebase');
 var logger = require('morgan');
 var firebase = require('firebase-admin');
-var token = require('./token/firebase.json');
+//var token = require('./token/firebase.json');
 const config = {
   "type": process.env.type,
   "project_id": process.env.project_id,
